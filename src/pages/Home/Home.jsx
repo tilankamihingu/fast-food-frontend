@@ -1,6 +1,9 @@
 import React from 'react';
 import './Home.css';
-
+import Fresh from '../../images/fresh.png';
+import Healthy from '../../images/healthy2.png';
+import Delivary from '../../images/delivary.png';
+import Staff from '../../images/staff.png';
 
 const Home = () => {
     return (
@@ -34,7 +37,22 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="about-icons">
-                    
+                    <div className="freshly">
+                        <img src={Fresh} alt="" />
+                        <p>freshly foods</p>
+                    </div>
+                    <div className="staff">
+                        <img src={Staff} alt="" />
+                        <p>friendly staff</p>
+                    </div>
+                    <div className="top-materials">
+                        <img src={Healthy} alt="" />
+                        <p>unique materials</p>
+                    </div>
+                    <div className="delivery">
+                        <img src={Delivary} alt="" />
+                        <p>home delivery</p>
+                    </div>
                 </div>
             </div>
         </div>
