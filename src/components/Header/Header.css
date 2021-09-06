@@ -10,6 +10,7 @@
     position: fixed;
     overflow: hidden;
     z-index: 1000;
+    top: 0;
 }
 
 .logo{
