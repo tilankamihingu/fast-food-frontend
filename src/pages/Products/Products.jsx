@@ -28,6 +28,13 @@ const Products = () => {
                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                        </div>
                    </div>
+                   <div className="product-card">
+                        <img src={Burger} alt="" />
+                       <div className="card-details">
+                           <h2>Name</h2>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                       </div>
+                   </div>
                </div>
            </div>
         </div>
