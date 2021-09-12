@@ -1,0 +1,44 @@
+.offer-full{
+    width: 100%;
+}
+.offer-container{
+    width: 100%;
+    padding: 10px;
+    background-attachment: fixed;
+  background-position: center;
+    background-image: url('../../images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.offer-row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 180px;
+    justify-content: center;
+}
+
+.offer-card{
+    max-width: 800px;
+    width: 100%;
+    overflow: hidden;
+    height: 580px;
+    margin: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.offer-card img{
+    width: 100%;
+    max-height: 340px; 
+    display: block;
+    object-fit: cover;
+}
+
+.card-details{
+    margin: 10px;
+}
