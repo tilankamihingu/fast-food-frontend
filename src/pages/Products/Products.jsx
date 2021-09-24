@@ -12,6 +12,7 @@ const Products = () => {
                        <div className="card-details">
                            <h2>Name</h2>
                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                           <h4>Price</h4>
                        </div>
                    </div>
                    <div className="product-card">
