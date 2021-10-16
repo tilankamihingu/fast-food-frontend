@@ -4,6 +4,7 @@ import Fresh from '../../images/fresh.png';
 import Healthy from '../../images/healthy2.png';
 import Delivary from '../../images/delivary.png';
 import Staff from '../../images/staff.png';
+import Slider from '../../components/Slider/Slider';
 
 const Home = () => {
     return (
@@ -54,6 +55,9 @@ const Home = () => {
                         <p>home delivery</p>
                     </div>
                 </div>
+            </div>
+            <div className="special-items">
+                <Slider />
             </div>
         </div>
     )
