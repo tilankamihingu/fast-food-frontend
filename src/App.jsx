@@ -6,6 +6,8 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Products from './pages/Products/Products';
 import Offfer from './pages/Offers/Offfer';
+import Bun from './pages/Bun/Bun';
+import Pizza from './pages/Pizza/Pizza';
 
 function App() {
   return (
@@ -16,11 +18,17 @@ function App() {
         <Route exact path='/'>
           <Home />
         </Route>
-        <Route path='/products'>
+        <Route path='/menu'>
           <Products />
         </Route>
         <Route path='/offers'>
           <Offfer />
+        </Route>
+        <Route path="/buns">
+          <Bun />
+        </Route>
+        <Route path="/pizza">
+          <Pizza />
         </Route>
       </Switch>
       <Footer />

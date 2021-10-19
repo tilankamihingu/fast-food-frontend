@@ -1,13 +1,13 @@
-.product-full{
+.bun-full{
     width: 100%;
 }
-.product-container{
+.bun-container{
     width: 100%;
     padding: 10px;
     margin-top: 120px;
 }
 
-.product-row{
+.bun-row{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -15,11 +15,11 @@
     justify-content: center;
 }
 
-.product-card{
+.bun-card{
     max-width: 240px;
     width: 100%;
     overflow: hidden;
-    height: 340px;
+    height: 380px;
     margin: 30px;
     cursor: pointer;
     border-radius: 10px;
@@ -27,8 +27,7 @@
     box-shadow: 0 0 5px #ccc;
 }
 
-
-.product-card img{
+.bun-card img{
     width: 100%;
     height: 100%;
     max-height: 180px;
@@ -36,34 +35,23 @@
     object-fit: cover;
 }
 
-.card-details{
+.bun-details{
     margin: 10px;
 }
 
-.find-items{
-    width: 100px;
-    height: 30px;
-    background-color: burlywood;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.product-head{
+.bun-head{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.product-head h1{
+.bun-head h1{
     margin-bottom: 10px;
     font-weight: 800;
 }
 
-.product-head .input-area input{
+.bun-head .input-area input{
     width: 400px;
     height: 30px;
     padding-left: 5px;
@@ -74,7 +62,7 @@
     margin-right: 10px;
 }
 
-.product-head .input-area button{
+.bun-head .input-area button{
     width: 80px;
     height: 30px;
     background-color: darkorange;

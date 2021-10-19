@@ -237,3 +237,15 @@
 .delivery img{
     max-width: 80px;
 }
+
+.special-items{
+    background-image: url('../../images/slide_back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 10px;
+}
+
+.special-items h1{
+    text-align: center;
+}

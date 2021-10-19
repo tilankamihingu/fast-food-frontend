@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 import Fresh from '../../images/fresh.png';
 import Healthy from '../../images/healthy2.png';
 import Delivary from '../../images/delivary.png';
@@ -14,7 +15,7 @@ const Home = () => {
                     <h1>Fast food Paradize</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident<br /> itaque sit nostrum impedit unde illum?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, libero?</p>
                     <div className="content-btn">
-                        <button className="view">View Menu</button>
+                        <Link to = "/menu"><button className="view">View Menu</button></Link>
                         <button className="order">Order Now</button>
                     </div>
                 </div>
@@ -57,6 +58,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="special-items">
+                <h1>Gallery</h1>
                 <Slider />
             </div>
         </div>
