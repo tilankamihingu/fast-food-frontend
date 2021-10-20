@@ -8,10 +8,12 @@ import Products from './pages/Products/Products';
 import Offfer from './pages/Offers/Offfer';
 import Bun from './pages/Bun/Bun';
 import Pizza from './pages/Pizza/Pizza';
+import { DataProvider } from './components/Context';
 
 function App() {
   return (
     <Router>
+    <DataProvider>
     <div className="App">
       <Header />
       <Switch>
@@ -33,6 +35,7 @@ function App() {
       </Switch>
       <Footer />
     </div>
+    </DataProvider>
     </Router>
   );
 }
