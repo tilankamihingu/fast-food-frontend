@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
-import './Bun.css';
-import Burger from '../../images/ban5.jpg';
 import { DataContext } from '../../components/Context';
+import './Bun.css';
 
-const Bun = () => {
+export default function Bun() {
     const value = useContext(DataContext)
     const [products] = value.products
 
@@ -19,19 +18,17 @@ const Bun = () => {
                 </div>
                <div className="bun-row">
                    {
-                       products.map(product =>(
-                        <div className="bun-card">
+                       products.map(product => (
+                        <div className="bun-card" key={product._id}> 
                             <img src={product.images} alt="" />
                             <div className="bun-details">
                                 <h2>{product.title}</h2>
                                 <p>{product.note}</p>
-                                <h3>RS.{product.price}</h3>
+                                <h3>{product.price}</h3>
                             </div>
                         </div>
                        ))
-                        
                    }
-                   
                    {/*<div className="bun-card">
                         <img src={Burger} alt="" />
                        <div className="bun-details">
@@ -61,5 +58,3 @@ const Bun = () => {
         </div>
     )
 }
-
-export default Bun
