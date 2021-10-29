@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Pizza.css';
 import Burger from '../../images/pizza2.jpg';
+import { DataContext } from '../../components/Context';
 
 const Pizza = () => {
+    const value = useContext(DataContext)
+    const[special] = value.special
     return (
         <div className="pizza-item-full">
            <div className="pizza-item-container">
@@ -14,14 +17,19 @@ const Pizza = () => {
                    </div>
                 </div>
                <div className="pizza-item-row">
-                   <div className="pizza-item-card">
-                        <img src={Burger} alt="" />
-                       <div className="pizza-item-details">
-                           <h2>Bun Items</h2>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                           <h3>RS.600.00</h3>
-                       </div>
-                   </div>
+                   {
+                       special.map(pizza =>(
+                        <div className="pizza-item-card">
+                            <img src={pizza.images} alt="" />
+                            <div className="pizza-item-details">
+                                <h2>{pizza.title}</h2>
+                                <p>{pizza.description}</p>
+                                <h3>{pizza.price}</h3>
+                            </div>
+                        </div>
+                       ))
+                   }
+                   
                    
                </div>
            </div>
