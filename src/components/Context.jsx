@@ -65,19 +65,19 @@ export const DataProvider = (props) => {
          }
     ])
 
-    const [special, setSpecial] = useState([
+    const [specials, setSpecials] = useState([
         {
             "_id":"001",
              "title": "Cold Desert",
              "images": "https://images.pexels.com/photos/88917/pexels-photo-88917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias",
+             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "price": 870.00,
          },
          {
             "_id":"002",
              "title": "Vegetable Salad",
              "images": "https://images.pexels.com/photos/434258/pexels-photo-434258.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias",
+             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "price": 650.00,
 
          },
@@ -85,7 +85,7 @@ export const DataProvider = (props) => {
             "_id":"003",
              "title": "Spicy Salad",
              "images": "https://images.pexels.com/photos/4194625/pexels-photo-4194625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium exercitationem nesciunt quos possimus, expedita nisi laboriosam molestias",
+             "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "price": 400.00,
 
          }
@@ -93,7 +93,7 @@ export const DataProvider = (props) => {
 
     const value = {
         products: [products, setProducts],
-        specials: [special, setSpecial]
+        specials: [specials, setSpecials]
     }
 
     return(

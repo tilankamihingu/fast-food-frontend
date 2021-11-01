@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { DataContext } from '../../components/Context';
 import './Bun.css';
+import { Link } from 'react-router-dom';
 
 export default function Bun() {
     const value = useContext(DataContext)
@@ -25,6 +26,7 @@ export default function Bun() {
                                 <h2>{product.title}</h2>
                                 <p>{product.note}</p>
                                 <h3>{product.price}</h3>
+                                <Link to={`/details/${product._id}`}><button className="card-btn">View</button></Link>
                             </div>
                         </div>
                        ))

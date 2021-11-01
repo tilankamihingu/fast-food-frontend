@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
 import './Pizza.css';
-import Burger from '../../images/pizza2.jpg';
 import { DataContext } from '../../components/Context';
+import { Link } from 'react-router-dom';
 
 const Pizza = () => {
     const value = useContext(DataContext)
-    const[special] = value.special
+    const[specials] = value.specials
     return (
         <div className="pizza-item-full">
            <div className="pizza-item-container">
@@ -18,13 +18,14 @@ const Pizza = () => {
                 </div>
                <div className="pizza-item-row">
                    {
-                       special.map(pizza =>(
+                       specials.map(pizza =>(
                         <div className="pizza-item-card">
                             <img src={pizza.images} alt="" />
                             <div className="pizza-item-details">
                                 <h2>{pizza.title}</h2>
                                 <p>{pizza.description}</p>
                                 <h3>{pizza.price}</h3>
+                                <Link to={`/details/${pizza._id}`}><button className="card-btn">View</button></Link>
                             </div>
                         </div>
                        ))

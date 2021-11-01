@@ -8,6 +8,7 @@ import Products from './pages/Products/Products';
 import Offfer from './pages/Offers/Offfer';
 import Bun from './pages/Bun/Bun';
 import Pizza from './pages/Pizza/Pizza';
+import ProductDetails from './pages/ProductDetails/ProductDetails';
 import { DataProvider } from './components/Context';
 
 function App() {
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/pizza">
           <Pizza />
+        </Route>
+        <Route path="/details/:id">
+          <ProductDetails />
         </Route>
       </Switch>
       <Footer />
