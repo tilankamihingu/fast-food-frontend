@@ -19,7 +19,7 @@ export const DataProvider = (props) => {
              "images": "https://images.pexels.com/photos/3052362/pexels-photo-3052362.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-             "specialp": "buy 2 get 1 free",
+             "specialp": "buy 2 get soft drink",
              "price": 260.00,
 
          },
@@ -29,7 +29,7 @@ export const DataProvider = (props) => {
              "images": "https://images.pexels.com/photos/6896379/pexels-photo-6896379.jpeg?cs=srgb&dl=pexels-eiliv-aceron-6896379.jpg&fm=jpg",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-             "specialp": "buy 2 get 1 free",
+             "specialp": "no offer",
              "price": 130.00,
 
          },

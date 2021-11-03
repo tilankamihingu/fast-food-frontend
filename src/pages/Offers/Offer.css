@@ -42,3 +42,18 @@
 .card-details{
     margin: 10px;
 }
+
+.offer-details ul{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.offer-details ul li{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offer-details p{
+    color: burlywood;
+}
