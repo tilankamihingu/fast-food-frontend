@@ -24,7 +24,7 @@ const Pizza = () => {
                             <div className="pizza-item-details">
                                 <h2>{pizza.title}</h2>
                                 <p>{pizza.description}</p>
-                                <h3>{pizza.price}</h3>
+                                <h3>Rs.{pizza.price}</h3>
                                 <Link to={`/details/${pizza._id}`}><button className="card-btn">View</button></Link>
                             </div>
                         </div>

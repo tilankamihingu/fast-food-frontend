@@ -25,36 +25,12 @@ export default function Bun() {
                             <div className="bun-details">
                                 <h2>{product.title}</h2>
                                 <p>{product.note}</p>
-                                <h3>{product.price}</h3>
+                                <h3>Rs.{product.price}</h3>
                                 <Link to={`/details/${product._id}`}><button className="card-btn">View</button></Link>
                             </div>
                         </div>
                        ))
                    }
-                   {/*<div className="bun-card">
-                        <img src={Burger} alt="" />
-                       <div className="bun-details">
-                           <h2>Bun Items</h2>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                           <h3>RS.600.00</h3>
-                       </div>
-                   </div>
-                   <div className="bun-card">
-                        <img src={Burger} alt="" />
-                       <div className="bun-details">
-                           <h2>Bun Items</h2>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                           <h3>RS.600.00</h3>
-                       </div>
-                   </div>
-                   <div className="bun-card">
-                        <img src={Burger} alt="" />
-                       <div className="bun-details">
-                           <h2>Bun Items</h2>
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                           <h3>RS.600.00</h3>
-                       </div>
-                </div>*/}
                </div>
            </div>
         </div>

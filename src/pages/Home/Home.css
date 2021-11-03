@@ -249,3 +249,21 @@
 .special-items h1{
     text-align: center;
 }
+
+@media screen and (max-width:700px) {
+    .about-icons{
+        margin-top: 180px;
+    }
+    .freshly img{
+        width: 60px;
+    }
+    .staff img{
+        width: 60px;
+    }
+    .top-materials img{
+        width: 60px;
+    }
+    .delivery img{
+        width: 60px;
+    }
+}

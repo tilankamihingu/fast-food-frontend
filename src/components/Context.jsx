@@ -11,7 +11,7 @@ export const DataProvider = (props) => {
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "specialp": "buy 2 get 1 free",
-             "price": 440.00,
+             "price": 540.00,
          },
          {
              "_id": "2",
@@ -20,7 +20,7 @@ export const DataProvider = (props) => {
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "specialp": "buy 2 get soft drink",
-             "price": 260.00,
+             "price": 460.00,
 
          },
          {
@@ -30,7 +30,7 @@ export const DataProvider = (props) => {
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "specialp": "no offer",
-             "price": 130.00,
+             "price": 330.00,
 
          },
          {
@@ -40,7 +40,7 @@ export const DataProvider = (props) => {
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "specialp": "buy 2 get 1 free",
-             "price": 800.00,
+             "price": 600.00,
 
          },
          {
@@ -50,7 +50,7 @@ export const DataProvider = (props) => {
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae pariatur quia delectus praesentium",
              "note": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
              "specialp": "buy 2 get 1 free",
-             "price": 320.00,
+             "price": 1320.00,
 
          },
          {
@@ -68,25 +68,25 @@ export const DataProvider = (props) => {
     const [specials, setSpecials] = useState([
         {
             "_id":"001",
-             "title": "Cold Desert",
-             "images": "https://images.pexels.com/photos/88917/pexels-photo-88917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+             "title": "Pepproni Pizza",
+             "images": "https://images.pexels.com/photos/803290/pexels-photo-803290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-             "price": 870.00,
+             "price": 1870.00,
          },
          {
             "_id":"002",
-             "title": "Vegetable Salad",
-             "images": "https://images.pexels.com/photos/434258/pexels-photo-434258.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+             "title": "Cheese Pizza",
+             "images": "https://images.pexels.com/photos/2741457/pexels-photo-2741457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-             "price": 650.00,
+             "price": 2150.00,
 
          },
          {
             "_id":"003",
-             "title": "Spicy Salad",
-             "images": "https://images.pexels.com/photos/4194625/pexels-photo-4194625.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+             "title": "Chicken Pizza",
+             "images": "https://images.pexels.com/photos/1049620/pexels-photo-1049620.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
              "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-             "price": 400.00,
+             "price": 1400.00,
 
          }
     ])
